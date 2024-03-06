@@ -4,9 +4,9 @@
 let age = 30;
 let message = '';
 if (age >= 16) {
-    message = "You are old enough to drive";
-}   else {
-    message = "You are NOT old enough to drive";
+  message = 'You are old enough to drive';
+} else {
+  message = 'You are NOT old enough to drive';
 }
 console.log(message);
 
@@ -16,11 +16,11 @@ console.log(message);
 let number = 7;
 let message0 = '';
 if (number % 2 === 0) {
-    message0 = "The number is even";
+  message0 = 'The number is even';
 } else {
-    message0 = "The number is odd";
+  message0 = 'The number is odd';
 }
-console.log (message0);
+console.log(message0);
 
 //challenge 3
 //create an if, else if, and else statement that checks if the number is positive, negative, or zero
@@ -28,11 +28,11 @@ console.log (message0);
 let number1 = 49;
 let message1 = '';
 if (number1 > 0) {
-    message1 = "The number is positive";
+  message1 = 'The number is positive';
 } else if (number1 < 0) {
-    message1 = "The number is negative";
+  message1 = 'The number is negative';
 } else {
-    message1 = "The number is zero";
+  message1 = 'The number is zero';
 }
 console.log(message1);
 
@@ -46,9 +46,9 @@ let password = 'password';
 let message2 = '';
 let userPassword = 'password';
 if (password === userPassword) {
-    message2 = "Login Successful";
+  message2 = 'Login Successful';
 } else {
-    message2 = "Login NOT successful";
+  message2 = 'Login NOT successful';
 }
 console.log(message2);
 
@@ -68,16 +68,12 @@ let hungry = false;
 let tired = true;
 let message3 = '';
 if (alive && learningJavascript) {
-    message3 = "Keep up the good work";
+  message3 = 'Keep up the good work';
 } else if (alive && hungry) {
-    message3 = "Go eat something";
+  message3 = 'Go eat something';
 } else if (tired || hungry) {
-    message3 = "Take a break";
-} else if (!alive ) {
-    message3 = 'Call 911';
+  message3 = 'Take a break';
+} else if (!alive) {
+  message3 = 'Call 911';
 }
-  console.log(message3);
-
-
-
-
+console.log(message3);
